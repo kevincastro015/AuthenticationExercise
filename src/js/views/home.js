@@ -55,7 +55,7 @@ export const Home = () => {
 								type="submit"
 								className="btn btn-black"
 								onClick={e => {
-									onSignInClick(email, password);
+									onSignInClicked(email, password);
 									e.preventDefault();
 									history.push("/dashboard");
 								}}>
