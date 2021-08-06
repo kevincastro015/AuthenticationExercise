@@ -57,7 +57,6 @@ export const Home = () => {
 								onClick={e => {
 									onSignInClicked(email, password);
 									e.preventDefault();
-									history.push("/dashboard");
 								}}>
 								Login
 							</button>
